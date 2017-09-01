@@ -1,10 +1,10 @@
 # FBAnnotationClusteringSwift
 
-This is a Swift translation of [FBAnnotationClustering](https://github.com/infinum/FBAnnotationClustering).  Aggregates map pins into a single numbered cluster.
+This is a Swift 3.0 translation of [FBAnnotationClustering](https://github.com/infinum/FBAnnotationClustering).  Aggregates map pins into a single numbered cluster.
 
 Map clustering is a common enough map feature in modern apps.  When I couldn't find a Swift library, I ended up translating one from Objective-C.  The library of choice was FBAnnotationClustering (FB stands for Filip Bec, not Facebook).  I wanted something that was fast (QuadTree), with a light code base in case I had to figure out and troubleshoot an edge case down the road.
 
-![Simulator Image](https://github.com/ribl/FBAnnotationClusteringSwift/blob/master/GitHubImages/simulatorShot.png)
+![Simulator Image](https://github.com/fsgpino/FBAnnotationClusteringSwift/blob/master/GitHubImages/simulatorShot.png)
 
 (left: sample project with a lot of pins in the DC area.  right: ribl screenshot using clusters)
 
@@ -12,7 +12,7 @@ Map clustering is a common enough map feature in modern apps.  When I couldn't f
 
 ####CocoaPods
 ```
-pod 'FBAnnotationClusteringSwift'
+pod 'FBAnnotationClusteringSwift', :git => 'https://github.com/fsgpino/FBAnnotationClusteringSwift'
 ```
 and in class where do you need add this
 
